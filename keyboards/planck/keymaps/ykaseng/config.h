@@ -35,11 +35,9 @@
 #define ENCODER_RESOLUTION 4
 
 /*
-    The crux of all of the following features is the tapping term setting.
-    This determines what is a tap and what is a hold. And the exact timing
-    for this to feel natural can vary from keyboard to keyboard, from
-    switch to switch, and from key to key.
-
-    https://precondition.github.io/home-row-mods#tapping-term
+    Home Row Mod Settings
+    https://precondition.github.io/home-row-mods
 */
-#define TAPPING_TERM 200
+#define TAPPING_TERM 180
+#define TAPPING_FORCE_HOLD
+#define IGNORE_MOD_TAP_INTERRUPT
