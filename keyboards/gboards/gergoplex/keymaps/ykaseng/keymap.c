@@ -73,7 +73,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_MEDR] = LAYOUT_split_3x5_3(
     KC_RST, KC_NA,  KC_NA,  KC_NA,  KC_NA,              KC_TOG,  KC_MOD,  KC_HUI,  KC_SAI,  KC_VAI,
     HOME_A, HOME_O, HOME_E, HOME_U, KC_NA,              KC_MPRV, KC_VOLD, KC_VOLU, KC_MNXT, KC_NU,
-    KC_NA,  KC_NA,  KC_NA,  KC_NA,  KC_NA,              KC_NU,   KC_NU,   KC_NU,   KC_NU,   KC_NU,
+    KC_NA,  KC_NA,  KC_NA,  KC_NA,  KC_NA,              KC_NA,   KC_NA,   KC_NA,   KC_NA,   KC_NA,
         KC_NA,  KC_NA,  KC_NA,                              KC_MSTP, KC_MPLY, KC_MUTE
 ),
 [_NAVR] = LAYOUT_split_3x5_3(
@@ -83,9 +83,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_NA,  KC_NA,  KC_NA,                              KC_ENT,  KC_BSPC, KC_DEL
 ),
 [_MOUR] = LAYOUT_split_3x5_3(
-    KC_NA,  KC_NA,  KC_NA,  KC_NA,  KC_NA,              KC_NU,   KC_NU,   KC_NU,   KC_NU,   KC_NU,
-    HOME_A, HOME_O, HOME_E, HOME_U, KC_NA,              KC_MS_L, KC_MS_D, KC_MS_U, KC_MS_R, KC_NU,
-    KC_NA,  KC_NA,  KC_NA,  KC_NA,  KC_NA,              KC_WH_L, KC_WH_D, KC_WH_U, KC_WH_R, KC_NU,
+    KC_NA,  KC_NA,  KC_NA,  KC_NA,  KC_NA,              KC_NA,   KC_NA,   KC_NA,   KC_NA,   KC_NA,
+    HOME_A, HOME_O, HOME_E, HOME_U, KC_NA,              KC_MS_L, KC_MS_D, KC_MS_U, KC_MS_R, KC_NA,
+    KC_NA,  KC_NA,  KC_NA,  KC_NA,  KC_NA,              KC_WH_L, KC_WH_D, KC_WH_U, KC_WH_R, KC_NA,
         KC_NA,  KC_NA,  KC_NA,                              KC_BTN1, KC_BTN3, KC_BTN2
 ),
 [_FUNL] = LAYOUT_split_3x5_3(
@@ -95,13 +95,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_APP,  KC_SPC,  KC_TAB,                           KC_NA,   KC_NA,   KC_NA
 ),
 [_NSL] = LAYOUT_split_3x5_3(
-    KC_LBRC, KC_7,    KC_8,    KC_9,    KC_RBRC,        KC_NA,   KC_NA,   KC_NA,   KC_NA,   KC_RST,
+    KC_LBRC, KC_7,    KC_8,    KC_9,    KC_RBRC,        KC_NA,   KC_NA,   KC_NA,   KC_NA,   KC_NA,
     KC_SCLN, KC_4,    KC_5,    KC_6,    KC_EQL,         KC_NA,   HOME_H,  HOME_T,  HOME_N,  HOME_S,
     KC_GRV,  KC_1,    KC_2,    KC_3,    KC_BSLS,        KC_NA,   KC_NA,   KC_NA,   KC_NA,   KC_NA,
         KC_DOT,  KC_0,    KC_MINS,                          KC_NA,   KC_NA,   KC_NA
 ),
 [_NSSL] = LAYOUT_split_3x5_3(
-    KC_LCBR, KC_AMPR, KC_ASTR, KC_LPRN, KC_RCBR,        KC_NA,   KC_NA,   KC_NA,   KC_NA,   KC_RST,
+    KC_LCBR, KC_AMPR, KC_ASTR, KC_LPRN, KC_RCBR,        KC_NA,   KC_NA,   KC_NA,   KC_NA,   KC_NA,
     KC_COLN, KC_DLR,  KC_PERC, KC_CIRC, KC_PLUS,        KC_NA,   HOME_H,  HOME_T,  HOME_N,  HOME_S,
     KC_TILD, KC_EXLM, KC_AT,   KC_HASH, KC_PIPE,        KC_NA,   KC_NA,   KC_NA,   KC_NA,   KC_NA,
         KC_GT,   KC_RPRN, KC_UNDS,                          KC_NA,   KC_NA,   KC_NA
